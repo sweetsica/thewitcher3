@@ -12,7 +12,7 @@ RequestedTextLanguage=
 TextLanguage=EN
 [Viewport]
 VSync=false
-Resolution="1680x1050"
+Resolution="1920x1080"
 FullScreenMode=0
 VSyncThreshold=0
 OutputMonitor=0
