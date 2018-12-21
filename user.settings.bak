@@ -1,8 +1,11 @@
 [Gameplay/EntityPool]
 SpawnedLimit=75
 [Hidden]
+HasSeenEP2WelcomeMessage=true
+HasSeenDLCMessage=true
 HasSeenGotyWelcomeMessage=true
 HasSetup=true
+HasSeenEP1WelcomeMessage=true
 uiVerticalFrameScale=1
 uiHorizontalFrameScale=1
 [Localization]
@@ -12,7 +15,7 @@ RequestedTextLanguage=
 TextLanguage=EN
 [Viewport]
 VSync=false
-Resolution="1920x1080"
+Resolution="1600x900"
 FullScreenMode=0
 VSyncThreshold=0
 OutputMonitor=0
