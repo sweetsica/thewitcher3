@@ -6,7 +6,7 @@ HasSeenDLCMessage=true
 HasSeenGotyWelcomeMessage=true
 HasSetup=true
 HasSeenEP1WelcomeMessage=true
-uiVerticalFrameScale=1
+uiVerticalFrameScale=0.9975
 uiHorizontalFrameScale=1
 [Localization]
 RequestedSpeechLanguage=
@@ -16,7 +16,7 @@ TextLanguage=EN
 [Viewport]
 VSync=false
 Resolution="1920x1080"
-FullScreenMode=1
+FullScreenMode=2
 VSyncThreshold=0
 OutputMonitor=0
 [Hud]
@@ -44,13 +44,12 @@ AllowChromaticAberration=false
 SharpenAmount=0
 MotionBlurPositionTreshold=0.05
 MotionBlurRotationTreshold=1
+AllowShafts=false
 AllowMotionBlur=false
-SSAOSolution=2
+AllowAntialias=false
+AllowDOF=false
+SSAOSolution=0
 AllowBlur=false
-AllowShafts=
-AllowBloom=
-AllowDOF=
-AllowAntialias=
 [Input]
 PadVibrationEnabled=true
 KeyboardCooldownSpeed=0.1
@@ -159,9 +158,6 @@ CascadeShadowDistanceScale0=1
 MeshRenderingDistanceScale=1
 HairWorksAALevel=0
 CascadeShadowDistanceScale1=1
-CascadeShadowmapSize=1024
-CascadeShadowQuality=0
-TextureMipBias=0
 [Input/Gestures]
 EnableSwipe=true
 EnablePan=true
@@ -176,7 +172,7 @@ SkipInputDelay=0.25
 FadeOutTime=1.5
 SkipAutoshow=false
 [Engine]
-LimitFPS=30
+LimitFPS=60
 [Rendering/SpeedTree]
 GrassGenerationEfficiency=0.075
 GrassDistanceScale=0.5
